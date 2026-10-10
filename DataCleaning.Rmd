@@ -1,0 +1,22 @@
+---
+title: "DataCleaning"
+output: html_document
+---
+
+```{r}
+library(readr)
+```
+
+```{r}
+players <- read_csv("nfl-big-data-bowl-2027/players.csv")
+plays <- read_csv("nfl-big-data-bowl-2027/player_play.csv")
+success <- read_csv("nfl-big-data-bowl-2027/player_career_successes.csv")
+games <- read_csv("nfl-big-data-bowl-2027/games.csv")
+Y2025 <- read_csv("nfl-big-data-bowl-2027/game_tracking_2025.csv")
+Y2024 <- read_csv("nfl-big-data-bowl-2027/game_tracking_2024.csv")
+Y2023 <- read_csv("nfl-big-data-bowl-2027/game_tracking_2023.csv")
+CTracking <- read_csv("nfl-big-data-bowl-2027/combine_tracking.csv")
+CResults <- read_csv("nfl-big-data-bowl-2027/combine_results.csv")
+
+```
+
